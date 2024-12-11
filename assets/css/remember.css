@@ -105,3 +105,73 @@ body {
   }
 
 }
+
+/* Universal Styling for Content Sections */
+.content-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h3 {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.content-section p, .content-section ul {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8;
+}
+
+.content-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.content-section ul li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.content-section ul li::before {
+  content: '•';
+  font-size: 20px;
+  color: #007bff;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Universal Footer Styling */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-top: 3px solid #007bff;
+}
+
+footer span.heart {
+  color: red;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
